@@ -25,25 +25,3 @@ function getInput() {
 document.getElementById("input").addEventListener('keyup', getInput);
 
 
-
-
-// function getCaption() {
-//   var images = document.getElementsByTagName('img');
-//   console.log(images.length);
-//
-//   for (i=0; i<images.length; i+=1) {
-//       var image = document.getElementsByTagName('img')[i];
-//       var caption= image.getAttribute('alt').toLowerCase();
-//       console.log(caption);
-//       console.log(result);
-//       var match = result.includes(caption);
-//       if (match = true){
-//         document.write('aye');
-//           }
-//
-//         }
-//       }
-//
-//
-//
-// getCaption();
